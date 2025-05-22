@@ -1,16 +1,18 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        my_dict = dict.fromkeys(nums, 0) # set values to 0
-        ans = []
+        count = {}
+        freq = [[] for i in range(len(nums) + 1)]
 
-        for key in my_dict.keys(): # for each key
-            for i in range(len(nums)):
-                if key == nums[i]:
-                    my_dict[key] += 1
+        # step 1: list -> dict , increment value for count[num] for each occurence
+        for num in nums:
+            count[num] = 1 + count.get(num, 0)
 
-        for i in range(k):
-            res = sorted(my_dict, key=my_dict.get, reverse=True)[0]
-            ans.append(res)
-            my_dict.pop(res)
+        for n, c in count.items(): # unpacking the dictionary
+            freq[c].append(n)
 
-        return(ans)
+        res = []
+        for i in range(len(freq) - 1, 0, -1): # right to left -> count
+            for n in freq[i]: # for each entry in current count column
+                res.append(n) # append entry
+                if len(res) == k:
+                    return res
