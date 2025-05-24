@@ -1,7 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        while '()' in s or '[]' in s or '{}' in s:
-            s = s.replace('()', '')
-            s = s.replace('{}', '')
-            s = s.replace('[]', '')
-        return s == ''
+        stack = []
+        for c in s:
+            if c =='(':
+                stack.append(')')
+            elif c == '{':
+                stack.append('}')
+            elif c == '[':
+                stack.append(']')
+            elif not stack or stack.pop() != c:
+                return False
+        
+        if len(stack)==0:
+            return True
+        else:
+            return False
