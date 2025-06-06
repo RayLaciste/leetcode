@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/RayLaciste/leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/RayLaciste/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/RayLaciste/leetcode/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/RayLaciste/leetcode/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/RayLaciste/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/RayLaciste/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RayLaciste/leetcode/tree/master/0567-permutation-in-string) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/RayLaciste/leetcode/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/RayLaciste/leetcode/tree/master/0155-min-stack) |
 ## Math
 |  |
@@ -151,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/RayLaciste/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/RayLaciste/leetcode/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/RayLaciste/leetcode/tree/master/0143-reorder-list) |
+| [0146-lru-cache](https://github.com/RayLaciste/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/RayLaciste/leetcode/tree/master/0206-reverse-linked-list) |
 ## Recursion
 |  |
@@ -159,4 +162,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0021-merge-two-sorted-lists](https://github.com/RayLaciste/leetcode/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/RayLaciste/leetcode/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/RayLaciste/leetcode/tree/master/0206-reverse-linked-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/RayLaciste/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
