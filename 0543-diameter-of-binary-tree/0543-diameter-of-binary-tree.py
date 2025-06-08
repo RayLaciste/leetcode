@@ -8,15 +8,15 @@ class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         self.ans = 0 # setting a `global` variable
 
-        def dfs(curr):
+        def dfs(curr): # returns height
             if curr is None:
                 return 0
             
-            left = dfs(curr.left)
-            right = dfs(curr.right)
+            left = dfs(curr.left) # gets height of left
+            right = dfs(curr.right) # gets height of right
 
-            self.ans = max(self.ans, left + right)
-            return 1 + max(left, right)
+            self.ans = max(self.ans, left + right) # ans updates to biggest
+            return 1 + max(left, right) # return the height from the current node for earlier recursive calls
         
         dfs(root)
         return self.ans
