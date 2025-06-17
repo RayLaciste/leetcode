@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/RayLaciste/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0739-daily-temperatures](https://github.com/RayLaciste/leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/RayLaciste/leetcode/tree/master/0883-car-fleet) |
+| [1127-last-stone-weight](https://github.com/RayLaciste/leetcode/tree/master/1127-last-stone-weight) |
 | [2058-concatenation-of-array](https://github.com/RayLaciste/leetcode/tree/master/2058-concatenation-of-array) |
 ## Hash Table
 |  |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/RayLaciste/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RayLaciste/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/RayLaciste/leetcode/tree/master/1127-last-stone-weight) |
 ## Bucket Sort
 |  |
 | ------- |
