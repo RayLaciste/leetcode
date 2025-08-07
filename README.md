@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/RayLaciste/leetcode/tree/master/0002-add-two-numbers) |
+| [0070-climbing-stairs](https://github.com/RayLaciste/leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/RayLaciste/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/RayLaciste/leetcode/tree/master/0268-missing-number) |
 | [1014-k-closest-points-to-origin](https://github.com/RayLaciste/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/RayLaciste/leetcode/tree/master/0022-generate-parentheses) |
+| [0070-climbing-stairs](https://github.com/RayLaciste/leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RayLaciste/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Backtracking
 |  |
@@ -290,4 +292,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0090-subsets-ii](https://github.com/RayLaciste/leetcode/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/RayLaciste/leetcode/tree/master/0268-missing-number) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/RayLaciste/leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
