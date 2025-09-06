@@ -1,7 +1,14 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        ans=[0]*len(nums)
-        my_set = list(sorted(set(nums)))
-        for i in range(len(my_set)):
-            nums[i] = my_set[i]
-        return(len(my_set))
+        if len(nums) == 1:
+            return 1
+        
+        l, r = 0, 1
+        while r < len(nums):
+            if nums[l] == nums[r]:
+                nums.pop(r)
+            else:
+                l+=1
+                r+=1
+                
+        return len(nums)
